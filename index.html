@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Patient Management</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Patient Details</h1>
+    </header>
+    <main class="container">
+        <div class="patient-form">
+            <h2>Add Patient</h2>
+            <form id="patient-form">
+                <input type="text" id="name" placeholder="Name" required>
+                <input type="number" id="age" placeholder="Age" required>
+                <input type="text" id="condition" placeholder="Heart Condition" required>
+                <input type="tel" id="phone" placeholder="Phone" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <button type="submit">Add Patient</button>
+            </form>
+        </div>
+
+        <form action="https://formsubmit.co/929999e9d1fc76215a16adf9dd231fb9 " method="POST" />
+        <div class="patient-list">
+            <h2>Patients</h2>
+            <ul id="patient-list">
+                <!-- Patient details will be displayed here -->
+            </ul>
+        </div>
+        <div class="big-box">
+            <!-- Display patient details and graph view here -->
+            <div id="patient-details">
+                <!-- Patient details will be displayed here -->
+            </div>
+            <div id="graph-view">
+                <!-- Graph view will be displayed here -->
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <button id="send-email">Send Email</button>
+        <button id="go-back">Go Back</button>
+    </footer>
+    <script src="main.js"></script>
+</body>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2299636/widgets/721676"></iframe>
+</html>
